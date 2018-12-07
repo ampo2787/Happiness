@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		7A9FCAE42146507E00C89BBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FCAE32146507E00C89BBC /* AppDelegate.m */; };
-		7A9FCAE72146507F00C89BBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FCAE62146507F00C89BBC /* ViewController.m */; };
 		7A9FCAEA2146507F00C89BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FCAE82146507F00C89BBC /* Main.storyboard */; };
 		7A9FCAEC2146508100C89BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FCAEB2146508100C89BBC /* Assets.xcassets */; };
 		7A9FCAEF2146508100C89BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FCAED2146508100C89BBC /* LaunchScreen.storyboard */; };
 		7A9FCAF22146508100C89BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FCAF12146508100C89BBC /* main.m */; };
+		7A9FCAFD2146514100C89BBC /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FCAFC2146514100C89BBC /* FaceView.m */; };
+		7A9FCB132148AD8C00C89BBC /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FCB122148AD8C00C89BBC /* HappinessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A9FCADF2146507E00C89BBC /* Happiness_02_201402356.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happiness_02_201402356.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9FCAE22146507E00C89BBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A9FCAE32146507E00C89BBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A9FCAE52146507F00C89BBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A9FCAE62146507F00C89BBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A9FCAE92146507F00C89BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A9FCAEB2146508100C89BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A9FCAEE2146508100C89BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A9FCAF02146508100C89BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A9FCAF12146508100C89BBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A9FCAFB2146514100C89BBC /* FaceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		7A9FCAFC2146514100C89BBC /* FaceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		7A9FCB112148AD8C00C89BBC /* HappinessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
+		7A9FCB122148AD8C00C89BBC /* HappinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +61,43 @@
 		7A9FCAE12146507E00C89BBC /* Happiness_02_201402356 */ = {
 			isa = PBXGroup;
 			children = (
+				7A9FCAFA2146509A00C89BBC /* Controller */,
+				7A9FCAF92146509400C89BBC /* Model */,
+				7A9FCAF82146508A00C89BBC /* View */,
 				7A9FCAE22146507E00C89BBC /* AppDelegate.h */,
 				7A9FCAE32146507E00C89BBC /* AppDelegate.m */,
-				7A9FCAE52146507F00C89BBC /* ViewController.h */,
-				7A9FCAE62146507F00C89BBC /* ViewController.m */,
-				7A9FCAE82146507F00C89BBC /* Main.storyboard */,
 				7A9FCAEB2146508100C89BBC /* Assets.xcassets */,
 				7A9FCAED2146508100C89BBC /* LaunchScreen.storyboard */,
 				7A9FCAF02146508100C89BBC /* Info.plist */,
 				7A9FCAF12146508100C89BBC /* main.m */,
 			);
 			path = Happiness_02_201402356;
+			sourceTree = "<group>";
+		};
+		7A9FCAF82146508A00C89BBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A9FCAE82146507F00C89BBC /* Main.storyboard */,
+				7A9FCAFB2146514100C89BBC /* FaceView.h */,
+				7A9FCAFC2146514100C89BBC /* FaceView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A9FCAF92146509400C89BBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A9FCAFA2146509A00C89BBC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A9FCB112148AD8C00C89BBC /* HappinessViewController.h */,
+				7A9FCB122148AD8C00C89BBC /* HappinessViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9FCAE72146507F00C89BBC /* ViewController.m in Sources */,
 				7A9FCAF22146508100C89BBC /* main.m in Sources */,
 				7A9FCAE42146507E00C89BBC /* AppDelegate.m in Sources */,
+				7A9FCAFD2146514100C89BBC /* FaceView.m in Sources */,
+				7A9FCB132148AD8C00C89BBC /* HappinessViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
