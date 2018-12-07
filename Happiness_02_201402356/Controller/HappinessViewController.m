@@ -68,6 +68,7 @@
     self.view.layer.backgroundColor = UIColor.lightGrayColor.CGColor;
     self.happiness = DEFAULT_HAPPINESS;
     [self updateFaceView];
+    //commit
 }
 
 - (void)didReceiveMemoryWarning {
